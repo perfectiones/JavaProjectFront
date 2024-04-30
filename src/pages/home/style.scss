@@ -1,0 +1,82 @@
+@import "../../styles/base/variables.module.scss";
+
+.element__list {
+  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+  li {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+  }
+}
+
+.element__form {
+  position: fixed;
+  top: 80px;
+  right: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid black;
+  .fs24 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  input {
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+  }
+  .form__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button{
+    display: block;
+
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+  }
+}
+
+.stat__form {
+    position: fixed;
+    top: 80px;
+    left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    .fs24 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    input {
+      border: 2px solid black;
+      border-radius: 5%;
+      padding: 5px;
+    }
+    .form__list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    button{
+      display: block;
+  
+      margin-top: 20px;
+      padding: 5px 10px;
+      border: 1px solid black;
+      border-radius: 10%;
+    }
+  }

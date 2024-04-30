@@ -1,0 +1,80 @@
+//Общие стили для страницы
+
+body {
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+.align-cent {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+.justif-ss-betw {
+  justify-content: space-between;
+}
+.justif-ss-end {
+  justify-content: end;
+}
+.justif-ss-cent {
+  justify-content: center;
+}
+.tex-centr {
+  text-align: center;
+}
+
+.m-centr {
+  margin: 0 auto;
+}
+.d-2 {
+  display: none;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+
+.d-2-none {
+  display: block;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.d-3 {
+  display: none;
+
+  @media (max-width: 678px) {
+    display: block;
+  }
+}
+
+.d-3-none {
+  @media (max-width: 678px) {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1340px !important;
+}
+
+.row > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+
